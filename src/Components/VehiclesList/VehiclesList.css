@@ -1,0 +1,44 @@
+.vehicle-list {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 12px;
+    width: fit-content;
+}
+
+.edit-panel {
+    display: flex;
+    gap: 8px;
+}
+
+.edit-input {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.edit-input--description {
+    font-size: 12px;
+}
+
+.edit-input--description__wrong {
+    color: red
+}
+
+.vehicle-item {
+    align-items: center;
+    align-self: baseline;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.vehicle-item__card {
+    border-bottom: black 2px solid;
+}
+
+.vehicle-item__percent {
+
+}
